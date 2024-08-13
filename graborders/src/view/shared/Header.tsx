@@ -6,7 +6,7 @@ function Header() {
     <div className="market__header">
       
           <img
-           src="/images/logo.png"
+           src="/images/wappier.png"
             alt=""
             className="logo__header"
           />

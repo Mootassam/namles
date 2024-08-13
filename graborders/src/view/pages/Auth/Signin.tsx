@@ -50,8 +50,10 @@ function Signin() {
       <div className="auth__header">
         {/* <img src="/images/logo.png" alt="" style={{width:200}}  /> */}
        
-      </div>    <div className="auth__header header__signup ">
-        <h1 className="auth__title"> Welcome</h1>
+      </div>    
+      <div className="auth__header header__signup ">
+        <img src="/images/wappier.png" alt="" srcset="" />
+        <h1 className="auth__title"> Welcome Back!</h1>
         <span className="auth__description __v2">
         Sign in to your marketing account
         </span>

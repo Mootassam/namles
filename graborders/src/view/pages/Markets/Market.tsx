@@ -121,8 +121,6 @@ function Market() {
     );
   };
 
-  const [currentImage, setCurrentImage] = useState(0);
-  const images = ["https://koozaimarketing.com/member/assets/images/01.gif"];
 
   useEffect(() => {});
 
@@ -147,9 +145,8 @@ function Market() {
 
           <div className="advertise__profile">
             <div className="welcome">
-              {" "}
-              <img src="/images/user.png" alt="" className="user__png" />{" "}
-              <b> Hi, {currentUser.fullName} </b> Welcome Back 👏{" "}
+              <img src="/images/user.png" alt="" className="user__png" />
+              <b> Hi, {currentUser.fullName} </b> Welcome Back 👏
             </div>
             <div>
               <Link to="/profile">
@@ -166,7 +163,7 @@ function Market() {
 
             <div className="marquee">
               <span>
-              Dear users,the GTB platform is back to the best and normal,continue to earn as much as you can from the platform
+              Dear users,the Wappier platform is back to the best and normal,continue to earn as much as you can from the platform
               </span>
             </div>
             <NewsTicker text="" />

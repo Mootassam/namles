@@ -12,8 +12,7 @@ import recordSelector from "src/modules/record/list/recordListSelectors";
 import Image from "src/shared/Images";
 import { useHistory } from "react-router-dom";
 import authActions from "src/modules/auth/authActions";
-import Amount from "src/shared/Amount";
-import Header from "src/view/shared/Header";
+
 
 const Grappage = () => {
   const [randomImage, setRandomImage] = useState("");

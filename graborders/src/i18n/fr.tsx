@@ -43,7 +43,7 @@ const fr = {
   },
 
   app: {
-    title: 'gtb',
+    title: 'Wappier',
   },
 
   api: {

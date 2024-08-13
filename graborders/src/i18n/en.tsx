@@ -43,7 +43,7 @@ const en = {
   },
 
   app: {
-    title: "gtb",
+    title: "Wappier",
   },
 
   api: {
@@ -2624,7 +2624,7 @@ const en = {
 
     enumerators: {
       status: {
-        USDT: "USDT",
+        USDT: "USD",
         ETH: "ETH",
         BTC: "BTC",
 
