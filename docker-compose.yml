@@ -3,16 +3,16 @@ services:
   backend:
     build: ./server
     ports:
-      - 8080:8080
+      - 8088:8080
     restart: unless-stopped
     volumes:
       - upload:/upload
     environment:
-      DATABASE_CONNECTION: mongodb://db/grap
+      DATABASE_CONNECTION: mongodb://db/olivia
   db:
     image: mongo:4.0-xenial
     ports:
-      - 2717:27017
+      - 2737:27017
     restart: unless-stopped
     volumes:
       - phone:/data/db
@@ -31,7 +31,7 @@ services:
   web1:
     build: ./graborders
     ports:
-      - 3015:80
+      - 3018:80
     restart: unless-stopped
     volumes:
       - "./graborders:/app"
